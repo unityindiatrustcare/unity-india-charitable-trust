@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Unity India Charitable Trust</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #075e54, #128c7e);
+    color: white;
+    padding: 18px 6%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #e8fff5, #ffffff);
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #075e54;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background: #128c7e;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+section {
+    padding: 65px 7%;
+}
+
+section h2 {
+    text-align: center;
+    color: #075e54;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.about {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #075e54;
+    margin-bottom: 12px;
+}
+
+.challenge {
+    background: #075e54;
+    color: white;
+    text-align: center;
+}
+
+.challenge h2 {
+    color: white;
+}
+
+.challenge p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.contact {
+    text-align: center;
+    background: #eef8f5;
+}
+
+footer {
+    background: #063f39;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media(max-width:600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    nav a {
+        font-size: 13px;
+        margin: 4px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="nav">
+        <div class="logo">Unity India Charitable Trust</div>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#challenge">₹5 Challenge</a>
+            <a href="#travel">Travel</a>
+            <a href="#charity">Charity</a>
+            <a href="#photos">Photos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>Unity India Charitable Trust</h1>
+        <p>Together for Humanity • Unity • Service</p>
+
+        <a class="button" href="#about">Learn More</a>
+
+        <a class="button whatsapp"
+           href="https://wa.me/917306616769"
+           target="_blank">
+           WhatsApp 1
+        </a>
+
+        <a class="button whatsapp"
+           href="https://wa.me/916238885242"
+           target="_blank">
+           WhatsApp 2
+        </a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+
+    <div class="about">
+        <p>
+            Unity India Charitable Trust is dedicated to helping people,
+            supporting charitable activities and promoting unity and
+            humanity across India.
+        </p>
+
+        <br>
+
+        <p>
+            Our mission is to bring people together and make a positive
+            difference in society through service, support and community
+            activities.
+        </p>
+    </div>
+</section>
+
+<section id="challenge" class="challenge">
+    <h2>₹5 Challenge</h2>
+
+    <p>
+        A small contribution can create a big change.
+        Join our ₹5 Challenge and become part of a movement
+        dedicated to helping people in need.
+    </p>
+
+    <br>
+
+    <a class="button whatsapp"
+       href="https://wa.me/917306616769"
+       target="_blank">
+       Join via WhatsApp 1
+    </a>
+
+    <a class="button whatsapp"
+       href="https://wa.me/916238885242"
+       target="_blank">
+       Join via WhatsApp 2
+    </a>
+</section>
+
+<section id="travel">
+    <h2>All India Travel</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🇮🇳 All India Travel</h3>
+            <p>
+                Connecting people and communities across India
+                through our travel and social initiatives.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🤝 Unity</h3>
+            <p>
+                Promoting friendship, cooperation and unity
+                among people from different parts of India.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>❤️ Service</h3>
+            <p>
+                Supporting people and communities through
+                charitable and humanitarian activities.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="charity">
+    <h2>Charity Activities</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Food Support</h3>
+            <p>
+                Supporting people who need food and essential assistance.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Community Support</h3>
+            <p>
+                Helping communities through various charitable activities.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Humanitarian Service</h3>
+            <p>
+                Working together to support people in difficult situations.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Social Activities</h3>
+            <p>
+                Encouraging people to participate in meaningful
+                social service activities.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="photos">
+    <h2>Photos</h2>
+
+    <div class="gallery">
+
+        <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=800&q=80"
+             alt="Charity">
+
+        <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=800&q=80"
+             alt="Community">
+
+        <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=800&q=80"
+             alt="Helping people">
+
+        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80"
+             alt="Charity activity">
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>Unity India Charitable Trust</strong></p>
+
+    <p>
+        For charity activities, ₹5 Challenge and enquiries,
+        contact us through WhatsApp.
+    </p>
+
+    <br>
+
+    <a class="button whatsapp"
+       href="https://wa.me/917306616769"
+       target="_blank">
+       💬 WhatsApp 1
+    </a>
+
+    <a class="button whatsapp"
+       href="https://wa.me/916238885242"
+       target="_blank">
+       💬 WhatsApp 2
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Unity India Charitable Trust</p>
+    <p>Unity • Humanity • Service</p>
+</footer>
+
+</body>
+</html>
